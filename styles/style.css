@@ -211,6 +211,19 @@ nav li{
 .main-6th-section{
     display: none;
 }
+footer{
+    border-radius: 7px;
+    font-size: 10px;
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    background-color: rgba(232, 159, 168, 0.912);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -291,6 +304,10 @@ nav li{
         height: 30px;
         margin-left: 2vw;
         margin-right: 2vw;
+    }
+    footer{
+        font-size: 14px;
+        width: 60%;
     }
 }
 
@@ -389,10 +406,25 @@ nav li{
         text-align: left;
     }
     .main-4th-section{
-        width: 75%;
+        width: 90%;
         margin: auto;
         margin-top: 10vh;
         grid-template-columns: repeat(4 , 1fr);
+    }
+    .main-4th-section div{
+        width: 200px;
+        height: 200px;
+    }
+    .main-4th-section img{
+        width: 70px;
+    }
+    .main-4th-section h5{
+        font-size: 32px;
+    }
+    .main-4th-section h6{
+        font-size: 18px;
+        color: gray;
+        font-weight: 300;
     }
     .main-5th-section{
         width: 30%;
@@ -407,6 +439,10 @@ nav li{
         height: 30px;
         margin-left: 5vw;
         margin-right: 5vw;
+    }
+    footer{
+        font-size: 18px;
+        width: 50%;
     }
 }
 
